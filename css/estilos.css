@@ -1,0 +1,55 @@
+body{
+background-color: white;
+font-family: Verdana: ;
+}
+
+div.main{
+	width: 1250px;
+	height:540px;
+	background-color: red;
+	margin: auto;
+}
+
+div.cabecera{
+	width: 1250px;
+	height: 80px;
+	background-color: #FFFF00; 
+	text-align: center;
+}
+
+nav{
+	width: 1250px;
+	height: 60px;
+	background-color: #FFFF00;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+a.boton{
+	font-family: mistral;
+	color: rgb(255, 255, 255);
+  	font-size: 20px;
+  	font-weight: 500;
+  	padding: 0.5em 1.2em;
+  	position: relative;
+  	text-decoration: none;
+}
+
+a.boton:hover{
+  color: #4682B4 ;
+  box-shadow: 0 1px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s linear;
+}
+
+div.imagen{
+	width: 1250px;
+	height: 400px;
+}
+
+footer{
+	width: 1250px;
+	padding: 10px;
+	background-color: #228B22;
+	text-align: center;
+}
